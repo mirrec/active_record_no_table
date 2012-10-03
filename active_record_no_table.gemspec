@@ -9,8 +9,8 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Miroslav Hettes"]
   gem.email         = ["mirrec@gmail.com"]
   gem.description   = %q{Very simple implementation of tableless}
-  gem.summary       = %q{Allow use ActiveRecord model with real database table}
-  gem.homepage      = "https://bitbucket.org/mirrec/active_record_no_table"
+  gem.summary       = %q{Allow use ActiveRecord model without database table}
+  gem.homepage      = "https://github.com/mirrec/active_record_no_table"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
